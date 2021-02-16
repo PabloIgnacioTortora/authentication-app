@@ -1,0 +1,21 @@
+#card{
+  border-radius: 24px;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 5%;
+}          
+
+#continueWithSocial {
+  text-align: center;
+
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  /* identical to box height */
+
+  letter-spacing: -0.035em;
+
+  color: #828282;
+}
