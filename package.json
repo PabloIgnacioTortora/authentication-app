@@ -1,0 +1,38 @@
+{
+  "name": "api-rest-authentication-app",
+  "version": "1.0.0",
+  "description": "server of app, login, singin, logout, recovery pass, delete, view profile.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development nodemon index",
+    "start": "cross-env NODE_ENV=production node index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PabloIgnacioTortora/authentication-app.git"
+  },
+  "author": "pabloignacio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PabloIgnacioTortora/authentication-app/issues"
+  },
+  "homepage": "https://github.com/PabloIgnacioTortora/authentication-app#readme",
+  "dependencies": {
+    "@sendgrid/mail": "^7.4.2",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "cross-env": "^7.0.3",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-jwt": "^6.0.0",
+    "express-validator": "^6.9.2",
+    "google-auth-library": "^7.0.2",
+    "jsonwebtoken": "^8.5.1",
+    "loadash": "^1.0.0",
+    "mongoose": "^5.11.16",
+    "morgan": "^1.10.0",
+    "node-fetch": "^2.6.1",
+    "path": "^0.12.7"
+  }
+}
